@@ -11,7 +11,6 @@ use Helpers\Url;
             <li><a href="<?php echo Url::to(MODULE_ADMIN.'/tours/index');?>"><i class="fa fa-star-half-empty fa-fw"></i> Tours</a></li>
             <li><a href="<?php echo Url::to(MODULE_ADMIN.'/events/index');?>"><i class="fa fa-newspaper-o fa-fw"></i> Events</a></li>
             <li><a href="<?php echo Url::to(MODULE_ADMIN.'/news/index');?>"><i class="fa fa-newspaper-o fa-fw"></i> News</a></li>
-            <li><a href="<?php echo Url::to(MODULE_ADMIN.'/about/create');?>"><i class="fa fa-fw fa-info"></i> Haqqımızda</a></li>
             <?php if(\Helpers\Session::get('auth_session_role') == 1 || \Helpers\Session::get('auth_session_role') == 2) { ?>
             <li><a href="<?php echo Url::to(MODULE_ADMIN.'/contacts/update/2');?>"><i class="fa fa-fw fa-cog"></i> Sayt məlumatları</a></li>
             <li><a href="<?php echo Url::to(MODULE_ADMIN.'/admins/index');?>"><i class="fa fa-user-secret fa-fw"></i> Admin siyahı</a></li>
