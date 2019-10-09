@@ -1,0 +1,20 @@
+@font-face{
+    font-family: 'PT Root UI Light';
+    src: url(../fonts/PT\ Root\ UI_Light.otf);
+}
+@font-face{
+    font-family: 'PT Root UI Regular';
+    src: url(../fonts/PT\ Root\ UI_Regular.otf);
+}
+@font-face{
+    font-family: 'PT Root UI Medium';
+    src: url(../fonts/PT\ Root\ UI_Medium.otf);
+}
+@font-face{
+    font-family: 'PT Root UI Bold';
+    src: url(../fonts/PT\ Root\ UI_Bold.otf);
+}
+@font-face{
+    font-family: 'PT Root UI VF';
+    src: url(../fonts/PT\ Root\ UI_VF.ttf);
+}
