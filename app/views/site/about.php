@@ -59,7 +59,7 @@ use Helpers\Url;
             foreach ($data['golfTours'] as $tour){
                 echo '
                 <div class="golf-tour-box" style="background: url('.Url::uploadPath().$tour['middle'].')">
-                    <a href="/turlar/'.$tour['slug'].'">
+                    <a href="/tours/'.$tour['slug'].'">
                         <div class="golf-tour-box-text">
                             <h3>'.$tour['title_'.$def_lng].'</h3>
                             <p>'.$language->get('from').' '.$tour['price_'.$def_lng].'</p>
@@ -70,7 +70,7 @@ use Helpers\Url;
             ?>
         </div>
 
-        <a href="/turlar/" class="btn my-5 btn-green"><?=$language->get('View_all_tours')?></a>
+        <a href="/tours/" class="btn my-5 btn-green"><?=$language->get('View_all_tours')?></a>
 
     </div>
 </section>

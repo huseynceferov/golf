@@ -37,7 +37,7 @@ use Helpers\Date;
             echo '
             <div class="golf-club-box" style="background: url('.Url::uploadPath().$club['thumb'].')">
                 <div class="text-white golf-club-box-text">
-                    <a href="/qolf-klublari/'.$club['slug'].'"><h3>'.$club['title_'.$def_lng].'</h3></a>
+                    <a href="/golf-clubs/'.$club['slug'].'"><h3>'.$club['title_'.$def_lng].'</h3></a>
                     <p class="golf-club-description">'.$club['short_text_'.$def_lng].'</p>
                     <p class="golf-club-location">'.$club['location_'.$def_lng].'</p>
                 </div>
@@ -48,7 +48,7 @@ use Helpers\Date;
 
         </div>
 
-        <a href="/qolf-klublari" class="btn my-5 btn-green"><?=$language->get('View_all_clubs')?></a>
+        <a href="/golf-clubs" class="btn my-5 btn-green"><?=$language->get('View_all_clubs')?></a>
     </div>
 </section>
 
@@ -67,7 +67,7 @@ use Helpers\Date;
             foreach ($data['golfTours'] as $tour){
                 echo '
                 <div class="golf-tour-box" style="background: url('.Url::uploadPath().$tour['middle'].')">
-                    <a href="/turlar/'.$tour['slug'].'">
+                    <a href="/tours/'.$tour['slug'].'">
                         <div class="golf-tour-box-text">
                             <h3>'.$tour['title_'.$def_lng].'</h3>
                             <p>'.$language->get('from').' '.$tour['price_'.$def_lng].'</p>
@@ -78,7 +78,7 @@ use Helpers\Date;
             ?>
         </div>
 
-        <a href="/turlar/" class="btn my-5 btn-green"><?=$language->get('View_all_tours')?></a>
+        <a href="/tours/" class="btn my-5 btn-green"><?=$language->get('View_all_tours')?></a>
 
     </div>
 </section>
@@ -114,7 +114,7 @@ use Helpers\Date;
                                         <span><?=$event['arena_'.$def_lng]?></span>
                                     </div>
                                     <div class="event-box event-content">
-                                        <h3><a href="/tedbirler/<?=$event['slug']?>"><?=$event['title_'.$def_lng]?></a></h3>
+                                        <h3><a href="/events/<?=$event['slug']?>"><?=$event['title_'.$def_lng]?></a></h3>
                                         <div class="date-and-time">
                                             <div><i class="far fa-calendar-alt"></i> <?=$event['event_date_'.$def_lng]?></div>
                                             <div></div>
@@ -124,7 +124,7 @@ use Helpers\Date;
                                         <p>
                                             <?=$event['short_text_'.$def_lng]?>
                                         </p>
-                                        <a href="/tedbirler/<?=$event['slug']?>"><?=$language->get('Continue_Reading')?>...</a>
+                                        <a href="/events/<?=$event['slug']?>"><?=$language->get('Continue_Reading')?>...</a>
                                     </div>
                                 </div>
                             </div>
@@ -145,7 +145,7 @@ use Helpers\Date;
                         </a>
                     </div>
                 </div>
-                <a href="/tedbirler" class="btn my-5 btn-green"><?=$language->get('View_all_events')?></a>
+                <a href="/events" class="btn my-5 btn-green"><?=$language->get('View_all_events')?></a>
             </div>
         </div>
 
@@ -170,8 +170,8 @@ use Helpers\Date;
                         <div class="card">
                             <img class="card-img-top" src="'.Url::uploadPath().$new['middle'].'" alt="'.$new['title_'.$def_lng].'">
                             <div class="card-body">
-                                <h4 class="card-title"> <a href="/xeberler/'.$new['slug'].'">'.$new['title_'.$def_lng].'</a> </h4>
-                                <p class="card-text"><small class="text-muted">'.Date::tarixLang($new['create_time']).'</small></p>
+                                <h4 class="card-title"> <a href="/news/'.$new['slug'].'">'.$new['title_'.$def_lng].'</a> </h4>
+                                <p class="card-text"><small class="text-muted">'.Date::tarixLang($new['create_time'],'d F Y , H:i',$def_lng).'</small></p>
                             </div>
                         </div>
                     </div>

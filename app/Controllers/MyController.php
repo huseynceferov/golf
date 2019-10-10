@@ -39,11 +39,11 @@ class MyController extends Controller
         }
     }
 
-    public static function getMenu()
+    /*public static function getMenu()
     {
         $menu = Recursive::menu(Database::get(), 'menus', 0, LanguagesModel::defaultLanguage(), 'up');
         return $menu;
-    }
+    }*/
 
     public static function getAllMenu()
     {

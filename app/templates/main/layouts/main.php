@@ -50,6 +50,7 @@ global $getMenus;
         Url::templatePath() . 'css/main.css?v='.time(),
         Url::templatePath() . 'css/animate.css',
         Url::templatePath() . 'css/app.css?v='.time(),
+        Url::templatePath() . 'css/toastr.min.css',
 	));
 	$hooks->run('css');
 	?>
@@ -67,12 +68,14 @@ global $getMenus;
                     <h2 class="text-white section-title"><?=$language->get('Enjoy_game_golf')?></h2>
                     <p class="text-light"><?=$language->get('Enjoy_alt_Text')?></p>
 
-                    <div class="input-group mt-5">
-                        <input type="email" class="form-control" placeholder="<?=$language->get('enter_email')?>">
-                        <span class="input-group-btn">
-                        <button class="btn" type="submit"><?=$language->get('Subscribe_Now')?></button>
-                        </span>
-                    </div>
+                    <form action="" method="post" id="form_subscribe">
+                        <div class="input-group mt-5">
+                            <input type="email" name="subscriber" class="form-control" placeholder="<?=$language->get('enter_email')?>">
+                            <span class="input-group-btn">
+                                <button class="btn" type="submit"><?=$language->get('Subscribe_Now')?></button>
+                            </span>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -120,6 +123,7 @@ global $getMenus;
     <?php
     Assets::js(array(
         Url::templatePath() . 'js/search.js',
+        Url::templatePath() . 'js/toastr.min.js',
         Url::templatePath() . 'js/main.js',
         Url::templatePath() . 'js/scroll.js'
     ));

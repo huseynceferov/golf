@@ -41,7 +41,6 @@ $menus = \Modules\panadmin\Models\MenusModel::getMenus();
                                 <th class="width-20"><input type="checkbox" class="all-check"></th>
                                 <th class="width-20">#</th>
                                 <th>Title</th>
-                                <th>Position</th>
                                 <th>Address</th>
                                 <th>Main menu</th>
                                 <?php if($params["cPositionEnable"]){ ?><th class="width-20">Position</th><?php } ?>
@@ -55,22 +54,6 @@ $menus = \Modules\panadmin\Models\MenusModel::getMenus();
                                     <td class="width-20"><input type="checkbox" name="row_check[]" value="<?= $row["id"]; ?>"></td>
                                     <td><?= $row["id"]?></td>
                                     <td><?= $row["title_".$defaultLang]?></td>
-                                    <td>
-                                        <?php
-                                        if($row["up"] == 0 && $row["down"] == 0) {
-                                            echo "None";
-                                        } else {
-                                            if($row["up"] > 0) {
-                                                echo "Up,";
-                                            }
-
-                                            if($row["down"] > 0) {
-                                                echo "Down";
-                                            }
-
-                                        }
-                                        ?>
-                                    </td>
                                     <td>
                                         <?php
                                         if(\Helpers\Security::filterUrl($row['url'])) {

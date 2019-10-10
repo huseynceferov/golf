@@ -233,33 +233,10 @@ class Menus extends MyController
             $array[$title] = Security::safe($$title);
         }
 
-
-        if($url) {
-            $array["url"] = Security::safe($url);
-        }
-
-        $array["parent_id"] = Security::safe($parent_id);
         $array["status"] = Security::safe($status);
-        $array["tags"] = Security::safe($tags);
-        $array["meta_description"] = Security::safe($meta_description);
 
         $title = "title_".$defaultLang;
         $array["slug"] = Url::str2Url($$title);
-
-        if(isset($up) && intval($up) > 0) {
-            $array["up"] = $up;
-        } else {
-            $array["up"] = 0;
-        }
-        if(isset($down) && intval($down) > 0) {
-            $array["down"] = $down;
-        } else {
-            $array["down"] = 0;
-        }
-
-        if(isset($menu_type)) {
-            $array["menu_type"] = $menu_type;
-        }
 
         return $array;
     }

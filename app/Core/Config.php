@@ -26,9 +26,9 @@ class Config
         /**
          * Define relative base path.
          */
-        define('DIR', '/golf/');
+        define('DIR', '/');
 
-        define('SITE_URL', 'http://localhost/golf/');
+        define('SITE_URL', 'https://golfazerbaijan.az');
 
         /**
          * Set default controller and method for legacy calls.
@@ -45,7 +45,7 @@ class Config
 		define('LAYOUT_MODULE_ADMIN', 'admin_main');
 		define('DEFAULT_MODULE_CONTROLLER', 'main');
         define('DEFAULT_MODULE_METHOD', 'index');
-        define('DEFAULT_MAIL_FROM', 'info@golf.az');
+        define('DEFAULT_MAIL_FROM', 'info@golfazerbaijan.az');
         /**
          * Set a default language.
          */
@@ -76,7 +76,7 @@ class Config
         /**
          * Database password.
          */
-        define('DB_PASS', ''); //9ywHreCR
+        define('DB_PASS', 'Pass1234!');
 
         /**
          * PREFER to be used in database calls default is smvc_

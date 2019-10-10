@@ -12,7 +12,7 @@ $categories = CategoriesModel::getCategories();
     <div class="col-lg-12">
         <div class="panel panel-green">
             <div class="panel-heading">
-                <h3>#<?= $data['result']['id'] ?> id-li blog baxış</h3>
+                <h3>Show News #ID: <?= $data['result']['id'] ?></h3>
             </div>
             <div class="panel-body">
                 <div class="row">
@@ -34,24 +34,22 @@ $categories = CategoriesModel::getCategories();
                                 if ($language["default"]) $li_class = 'active in';
                                 ?>
                                 <div class="tab-pane fade <?= $li_class ?>" id="lang-<?= $language["name"] ?>">
-                                    <h5><b>Başlıq:</b> <?= $data['result']['title_' . $language['name']] ?></h5>
-                                    <h5><b>Qısa mətn:</b> <?= htmlspecialchars_decode($data['result']['short_text_' . $language['name']]) ?></h5>
-                                    <h5><b>Mətn:</b> <?= htmlspecialchars_decode($data['result']['text_' . $language['name']]) ?></h5>
-                                    <h5><b>Açar sözlər:</b> <?= $data['result']['tags_'.$language['name']] ?></h5>
-                                    <h5><b>Meta açıqlama:</b> <?= $data['result']['meta_description_'.$language['name']] ?></h5>
+                                    <h5><b>Title:</b> <?= $data['result']['title_' . $language['name']] ?></h5>
+                                    <h5><b>Short text:</b> <?= htmlspecialchars_decode($data['result']['short_text_' . $language['name']]) ?></h5>
+                                    <h5><b>Text:</b> <?= htmlspecialchars_decode($data['result']['text_' . $language['name']]) ?></h5>
+
                                 </div>
                             <?php
                             endforeach;
-                            if($data['result']['status']==0){$status='Deaktivdir';}else{$status='Aktivdir';}
+                            if($data['result']['status']==0){$status='Deactive';}else{$status='Active';}
                             ?>
                             <hr>
-                            <h5><b>Tarix:</b> <?= date('d.m.Y H:i', $data['result']['create_time']) ?></h5>
-                            <h5><b>Baxış sayı:</b> <?= $data['result']['view_count'] ?></h5>
+                            <h5><b>Datetime:</b> <?= date('d.m.Y H:i', $data['result']['create_time']) ?></h5>
                             <h5><b>Statusu:</b> <?= $status ?></h5>
 
                         </div>
                         <div class="panel-footer">
-                            <h3>Blog aid şəkil:</h3>
+                            <h3>Photo by News:</h3>
                             <img src="<?=\Helpers\Url::filePath().$data['result']['thumb']?>"/>
                         </div>
                     </div>

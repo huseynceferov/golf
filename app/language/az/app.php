@@ -8,6 +8,7 @@ return [
     'Enjoy_alt_Text' => 'Bülletenimizə üzv olun və üzvlük endirimlərimiz və turnirlərin siyahısı ilə bərabər oyununuzu cilalamaq üçün ən yeni məsləhətlər və tövsiyələr əldə edin!',
     'enter_email' => 'E-poçtunuzu daxil edin',
     'Subscribe_Now' => 'İndi abunə olun',
+    'You_have_successfully_subscribed_to_our_newsletter' => 'Bülletenimizə uğurla abunə oldunuz',
 
     //All
     'name'=> 'Ad',

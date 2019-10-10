@@ -1,7 +1,7 @@
 <?php
 use \Helpers\OperationButtons;
 use Models\LanguagesModel;
-use Modules\admin\Models\MenusModel;
+use Modules\panadmin\Models\MenusModel;
 
 $languages = LanguagesModel::getLanguages();
 $defaultLang = LanguagesModel::getDefaultLanguage();
@@ -12,7 +12,7 @@ $categories = MenusModel::getMenus();
     <div class="col-lg-12">
         <div class="panel panel-green">
             <div class="panel-heading">
-                <h3>Menuya bax</h3>
+                <h3>Menu show</h3>
             </div>
             <div class="panel-body">
                 <div class="row">
@@ -37,8 +37,8 @@ $categories = MenusModel::getMenus();
                                 if ($language["default"]) $li_class = 'active in';
                                 ?>
                                 <div class="tab-pane fade <?= $li_class ?>" id="lang-<?= $language["name"] ?>">
-                                    <h5><b>Başlıq:</b> <?= $data['result']['title_' . $language['name']] ?></h5>
-                                    <h5><b>Mətn:</b> <?= htmlspecialchars_decode($data['result']['text_' . $language['name']]) ?></h5>
+                                    <h5><b>Title:</b> <?= $data['result']['title_' . $language['name']] ?></h5>
+                                    <h5><b>Text:</b> <?= htmlspecialchars_decode($data['result']['text_' . $language['name']]) ?></h5>
                                 </div>
                                 <?php
                             endforeach;
@@ -47,7 +47,7 @@ $categories = MenusModel::getMenus();
                             ?>
                             <hr>
                             <h5><b>ID:</b> <?= $data['result']['id'] ?></h5>
-                            <h5><b>Ana kateqoriya:</b> <?= \Modules\admin\Models\MenusModel::getMenuName($data['result']['parent_id']) ?></h5>
+                            <h5><b>Main category:</b> <?=MenusModel::getMenuName($data['result']['parent_id']) ?></h5>
                             <h5><b>Status:</b> <?= $status ?></h5>
 
                         </div>

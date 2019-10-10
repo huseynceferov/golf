@@ -95,7 +95,6 @@ class Site extends MyController
     public function contact()
     {
         $defaultLanguage = $this->defaultLang;
-        $menu = parent::getMenu();
         $contacts = parent::getContacts();
         $data['foot_menu'] = $this->getDownMenu();
 
@@ -205,7 +204,7 @@ class Site extends MyController
             }else{
                 $msg = '';
                 foreach ($validator->getErrors() as $error){
-                    $msg.=$error;
+                    $msg.= $error.'<br>';
                 }
                 $data['success'] = false;
                 $data['message'] = $msg;

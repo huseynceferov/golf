@@ -47,7 +47,7 @@ class Subscribers extends MyController
     {
         $this->dataParams = [
             "cName" =>  "subscribers",
-            "cTitle" => "Abunələr",
+            "cTitle" => "Subscribers",
             "cStatusMode" => self::$statusMode,
             "cPositionEnable" => self::$positionEnable,
             "cCrudMode" => self::$crudMode,

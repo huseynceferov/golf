@@ -38,7 +38,7 @@ use Helpers\Url;
                 <span><?=$list['arena_'.$def_lng]?></span>
             </div>
             <div class="event-box event-content">
-                <h3><a href="tedbirler/<?=$list['slug']?>"><?=$list['title_'.$def_lng]?></a></h3>
+                <h3><a href="/events/<?=$list['slug']?>"><?=$list['title_'.$def_lng]?></a></h3>
                 <div class="date-and-time">
                     <div><i class="far fa-calendar-alt"></i> <?=$list['event_date_'.$def_lng]?></div>
                     <div></div>
@@ -48,7 +48,7 @@ use Helpers\Url;
                 <p>
                     <?=$list['short_text_'.$def_lng]?>
                 </p>
-                <a href="/tedbirler/<?=$list['slug']?>"><?=$language->get('Continue_Reading')?>...</a>
+                <a href="/events/<?=$list['slug']?>"><?=$language->get('Continue_Reading')?>...</a>
             </div>
         </div>
         <?php

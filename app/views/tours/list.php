@@ -34,10 +34,10 @@ use Helpers\Url;
             foreach ($data['lists'] as $tour){
                 echo '
                 <div class="golf-tour-box" style="background: url('.Url::uploadPath().$tour['middle'].')">
-                    <a href="turlar/'.$tour['slug'].'">
+                    <a href="/tours/'.$tour['slug'].'">
                         <div class="golf-tour-box-text">
                             <h3>'.$tour['title_'.$def_lng].'</h3>
-                            <p>'.$language->get('from').' '.$tour['price_'.$def_lng].'</p>
+                            <p>'.$language->get('from').' '.$tour['price_en'].'</p>
                         </div>
                     </a>
                 </div>';

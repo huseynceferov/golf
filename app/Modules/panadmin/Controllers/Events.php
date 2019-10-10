@@ -257,6 +257,12 @@ class Events extends MyController
 
             $event_date = "event_date_".$lang["name"];
             $array[$event_date] = Security::safe($$event_date);
+
+            $tags = "tags_".$lang["name"];
+            $array[$tags] = Security::safe($$tags);
+
+            $meta_description = "meta_description_".$lang["name"];
+            $array[$meta_description] = Security::safe($$meta_description);
         }
 
 

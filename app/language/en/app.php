@@ -7,7 +7,8 @@ return [
     'Enjoy_game_golf' => 'Enjoy the game of golf?',
     'Enjoy_alt_Text' => 'Sign up for our newsletter and get all the latest tips and tricks to polish your game, on par with our membership discounts and a list of tournaments!',
     'enter_email' => 'Enter your email',
-    'Subscribe_Now' => 'Subscribe Now',
+    'Subscribe_Now' => 'SubscrIbe Now',
+    'You_have_successfully_subscribed_to_our_newsletter' => 'You have successfully subscribed to our newsletter',
 
 
     //All
@@ -80,20 +81,20 @@ return [
     'title_golf_index' => '<span>Golf</span> Clubs',
     'header_golf_index' => 'Discover new golf courses in Azerbaijan',
     'golf_text_index' => 'Although Azerbaijan is a new spot on the golf map, it clearly has a prosperous future. Always in incredible condition, both of our courses are also easily accessible and offer a unique opportunities as much for professionals as for those new to golf.',
-    'View_all_clubs' => 'View all clubs',
+    'View_all_clubs' => 'VIew all clubs',
 
     //Golf tours
     'title_golf_tours_index' => '<span>Golf</span> Tours',
     'header_golf_tours_index' => 'Extend your trip by visiting Azerbaijan\'s emerging golf courses',
     'golf_tours_text_index' => 'Travelling to play golf or eager to experience new activities? Playing golf at state-of-the-art clubs in Baku and Guba would be an unforgettable addition to your itinerary. You can select from the following options to create your dream trip to Azerbaijan:',
     'from' => 'from',
-    'View_all_tours' => 'View all tours',
+    'View_all_tours' => 'VIew all tours',
 
     //Golf events
     'title_golf_events_index' => '<span>Golf</span> Events',
     'header_golf_events_index' => 'Don’t miss the opportunity to enjoy golf',
     'golf_events_text_index' => 'You can join different scaled golf events including tournaments, competitions and championships held in Azerbaijan. Discover these great options below:',
-    'View_all_events' => 'View all events',
+    'View_all_events' => 'VIew all events',
 
     //Golf news
     'title_golf_news_index' => '<span>Golf</span> News',

@@ -21,11 +21,10 @@ $defaultLang = LanguagesModel::getDefaultLanguage();
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <p class="pull-left padding-top-7 text-danger margin-right-10">
-                        <b>Seçilmişləri: </b>
+                        <b>Favorites: </b>
                     </p>
 
-                    <button type="submit" name="delete" value="1" class="btn btn-sm btn-danger pull-left margin-right-10 delete_confirm"><i class="fa fa-times"></i> Sil</button>
-                    <a href="<?php echo Url::to(MODULE_ADMIN."/".$params["cName"]."/create")?>" class="btn  btn-sm btn-success pull-right margin-right-10"><i class="fa fa-plus"></i> Əlavə et</a>
+                    <button type="submit" name="delete" value="1" class="btn btn-sm btn-danger pull-left margin-right-10 delete_confirm"><i class="fa fa-times"></i> Delete</button>
                     <div class="clearfix"></div>
                 </div>
                 <!-- /.panel-heading -->
@@ -37,11 +36,11 @@ $defaultLang = LanguagesModel::getDefaultLanguage();
                             <tr>
                                 <th class="width-20"><input type="checkbox" class="all-check"></th>
                                 <th class="width-20">#</th>
-                                <th>Email</th>
-                                <th>Qeydə alınma tarixi</th>
-                                <?php if($params["cPositionEnable"]){ ?><th class="width-20">Sıralama</th><?php } ?>
-                                <?php if($params["cStatusMode"]){ ?><th class="width-20">Aktiv</th><?php } ?>
-                                <?php if($params["cCrudMode"]){ ?><th class="width-20">Əməliyyatlar</th><?php } ?>
+                                <th>E-mail</th>
+                                <th>Datetime</th>
+                                <?php if($params["cPositionEnable"]){ ?><th class="width-20">Position</th><?php } ?>
+                                <?php if($params["cStatusMode"]){ ?><th class="width-20">Status</th><?php } ?>
+                                <?php if($params["cCrudMode"]){ ?><th class="width-20">Operations</th><?php } ?>
                             </tr>
                             </thead>
                             <tbody>

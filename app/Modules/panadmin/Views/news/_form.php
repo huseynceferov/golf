@@ -33,6 +33,15 @@ $defaultLanguage = LanguagesModel::getDefaultLanguage();
                             <label for="text_<?= $language["name"]?>">Text (<?= $language["name"]?>)</label>
                             <textarea class="form-control editor" id="text_<?= $language["name"]?>" rows="5" name="text_<?= $language["name"]?>"><?=$model?$model["text_".$language["name"]]:''?></textarea>
                         </div>
+
+                        <div class="form-group">
+                            <label for="tags_<?= $language["name"]?>">Keywords (<?= $language["name"]?>)</label>
+                            <input class="form-control" id="tags_<?= $language["name"]?>" name="tags_<?= $language["name"]?>" value="<?=$model?$model["tags_".$language['name']]:''?>">
+                        </div>
+                        <div class="form-group">
+                            <label for="meta_description_<?= $language["name"]?>">Meta description (<?= $language["name"]?>)</label>
+                            <input class="form-control" name="meta_description_<?= $language["name"]?>" id="meta_description_<?= $language["name"]?>" value="<?=$model?$model["meta_description_".$language['name']]:''?>">
+                        </div>
                     </div>
                 <?php }  ?>
                     <hr>

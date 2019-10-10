@@ -14,23 +14,25 @@ Router::any('/', 'Controllers\Site@index');
 Router::any('elaqe', 'Controllers\Site@contact');
 
 //Clubs
-Router::any('qolf-klublari', 'Controllers\Clubs@lists');
-Router::any('qolf-klublari/(:any)', 'Controllers\Clubs@view');
+Router::any('golf-clubs', 'Controllers\Clubs@lists');
+Router::any('golf-clubs/(:any)', 'Controllers\Clubs@view');
 
 //Tours
-Router::any('turlar', 'Controllers\Tours@lists');
-Router::any('turlar/(:any)', 'Controllers\Tours@view');
+Router::any('tours', 'Controllers\Tours@lists');
+Router::any('tours/(:any)', 'Controllers\Tours@view');
 
 //Events
-Router::any('tedbirler', 'Controllers\Events@lists');
-Router::any('tedbirler/(:any)', 'Controllers\Events@view');
+Router::any('events', 'Controllers\Events@lists');
+Router::any('events/(:any)', 'Controllers\Events@view');
 
 //Xeberler
-Router::any('xeberler', 'Controllers\News@lists');
-Router::any('xeberler/(:any)', 'Controllers\News@view');
+Router::any('news', 'Controllers\News@lists');
+Router::any('news/(:any)', 'Controllers\News@view');
 
-Router::any('elaqe', 'Controllers\Site@contact');
-Router::any('haqqimizda', 'Controllers\Site@aboutUs');
+Router::get('search', 'Controllers\News@search');
+
+Router::any('contact', 'Controllers\Site@contact');
+Router::any('about', 'Controllers\Site@aboutUs');
 Router::any('request/subscriber', 'Controllers\Site@addSubscriber');
 Router::any('setlanguage/(:any)', 'Controllers\Site@setlanguage');
 Router::any('setcurrency/(:any)', 'Controllers\Site@setcurrency');

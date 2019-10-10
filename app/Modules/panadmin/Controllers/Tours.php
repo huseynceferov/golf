@@ -246,11 +246,15 @@ class Tours extends MyController
             $title = "title_".$lang["name"];
             $array[$title] = Security::safe($$title);
 
-            $price = "price_".$lang["name"];
-            $array[$price] = Security::safe($$price);
+            $tags = "tags_".$lang["name"];
+            $array[$tags] = Security::safe($$tags);
+
+            $meta_description = "meta_description_".$lang["name"];
+            $array[$meta_description] = Security::safe($$meta_description);
         }
 
 
+        $array["price_en"] = Security::safe($price_en);
         $array["status"] = Security::safe($status);
         $title = "title_az";
         $array["slug"] = Url::str2Url($$title);

@@ -245,6 +245,12 @@ class News extends MyController
 
             $title = "title_".$lang["name"];
             $array[$title] = Security::safe($$title);
+
+            $tags = "tags_".$lang["name"];
+            $array[$tags] = Security::safe($$tags);
+
+            $meta_description = "meta_description_".$lang["name"];
+            $array[$meta_description] = Security::safe($$meta_description);
         }
 
 

@@ -27,7 +27,7 @@ if(isset($data['page']) and $data['page']=='other'){
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto ml-5">
                 <li class="nav-item">
-                    <a class="nav-link" href="haqqimizda"><?=$language->get('foot_about')?></a>
+                    <a class="nav-link" href="about"><?=$language->get('foot_about')?></a>
                 </li>
             <?php
             foreach ($getMenus as $getMenu){
@@ -39,12 +39,12 @@ if(isset($data['page']) and $data['page']=='other'){
             ?>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="elaqe"><?=$language->get('foot_contacts')?></a>
+                    <a class="nav-link" href="contact"><?=$language->get('foot_contacts')?></a>
                 </li>
 
             </ul>
-            <form class="form-inline my-2 my-lg-0 search-form">
-                <input class="form-control mr-sm-2 search-input" type="search" placeholder="<?=$language->get('Search')?>" aria-label="Search" id="searchInpt">
+            <form class="form-inline my-2 my-lg-0 search-form" method="get" action="search">
+                <input class="form-control mr-sm-2 search-input" name="q" type="search" placeholder="<?=$language->get('Search')?>" aria-label="Search" id="searchInpt">
                 <button class="btn my-2 my-sm-0 search-button" type="submit" id="searchBtn"><i class="fas fa-search"></i></button>
             </form>
             <ul class="navbar-nav">

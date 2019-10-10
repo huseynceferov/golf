@@ -38,62 +38,6 @@ $menus = \Modules\panadmin\Models\MenusModel::getMenus();
                         </div>
                     <?php }  ?>
 
-                    <div class="form-group">
-                        <label for="url">Address (If it is a different site, type with http: //)</label>
-                        <input class="form-control" id="url" name="url" value="<?=($model && array_key_exists("url",$model))?$model["url"]:''?>">
-                    </div>
-
-                    <h5><b>Menu type</b></h5>
-                    <div class="form-group">
-                        <?php foreach ($params["menuType"] as $key => $value): ?>
-                            <?php
-                            if(isset($model["menu_type"]) && $model["menu_type"] == $key) {
-                                $checked = 'checked';
-                            } else {
-                                $checked = '';
-                            }
-                            ?>
-                        <label class="radio-inline"><input type="radio" name="menu_type" value="<?=$key?>" <?=$checked?>><?=$value?></label>
-                        <?php endforeach; ?>
-                    </div>
-
-                    <?php if($data["dataParams"]["posUp"] || $data["dataParams"]["posDown"]) { ?>
-                    <div class="checkbox">
-                        <h5><b>Menu location</b></h5>
-                        <?php if($data["dataParams"]["posUp"]) {
-                            if($model["up"] == 1) {
-                                $checkedUp = 'checked';
-                            } else {
-                                $checkedUp = '';
-                            }
-                        ?>
-                        <label class="checkbox-inline"><input type="checkbox" id="up" name="up" value="1" <?=$checkedUp?>>Up</label>
-                        <?php } ?>
-
-                        <?php if($data["dataParams"]["posDown"]) {
-                            if($model["down"] == 1) {
-                                $checkedDown = 'checked';
-                            } else {
-                                $checkedDown = '';
-                            }
-                            ?>
-                        <label class="checkbox-inline"><input type="checkbox" id="down" name="down" value="1" <?=$checkedDown?>>Down</label>
-                        <?php } ?>
-                    </div>
-                    <?php } ?>
-                    <div class="form-group">
-                        <label for="category">Menu</label>
-                        <select name="parent_id" id="category" class="form-control">
-                            <option value="0">Main menu</option>
-                            <?php
-                            foreach($data['menus'] as $key=>$val){
-                                if($model && $model["parent_id"]==$key) $selected='selected="selected"'; else $selected='';
-                                echo '<option value="'.$key.'" '.$selected.'>'.$val["title_".$defaultLanguage].'</option>';
-                            }
-                            ?>
-                        </select>
-                    </div>
-
                     <div class="clearfix"></div>
 
                     <div class="form-group">

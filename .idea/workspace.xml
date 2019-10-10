@@ -2,8 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a35b2b86-db44-466f-9052-604863d062dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/Clubs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Clubs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/Events.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Events.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/MyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/MyController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/News.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/News.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/Site.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Site.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Core/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Core/Config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Core/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Core/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Helpers/Recursive.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helpers/Recursive.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/panadmin/Controllers/Clubs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/panadmin/Controllers/Clubs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/panadmin/Controllers/Events.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/panadmin/Controllers/Events.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/panadmin/Controllers/Menus.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/panadmin/Controllers/Menus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/panadmin/Controllers/News.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/panadmin/Controllers/News.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/panadmin/Controllers/Subscribers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/panadmin/Controllers/Subscribers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/panadmin/Controllers/Tours.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/panadmin/Controllers/Tours.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/panadmin/Models/MenusModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/panadmin/Models/MenusModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/panadmin/Views/admins/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/panadmin/Views/admins/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/panadmin/Views/clubs/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/panadmin/Views/clubs/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/panadmin/Views/clubs/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/panadmin/Views/clubs/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/panadmin/Views/events/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/panadmin/Views/events/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/panadmin/Views/events/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/panadmin/Views/events/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/panadmin/Views/menus/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/panadmin/Views/menus/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/panadmin/Views/menus/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/panadmin/Views/menus/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/panadmin/Views/menus/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/panadmin/Views/menus/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/panadmin/Views/news/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/panadmin/Views/news/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/panadmin/Views/news/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/panadmin/Views/news/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/panadmin/Views/subscribers/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/panadmin/Views/subscribers/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/panadmin/Views/tours/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/panadmin/Views/tours/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/panadmin/Views/tours/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/panadmin/Views/tours/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/panadmin/templates/main/layouts/inc/main_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/panadmin/templates/main/layouts/inc/main_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/panadmin/templates/main/layouts/inc/main_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/panadmin/templates/main/layouts/inc/main_menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/language/az/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/language/az/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/language/en/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/language/en/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/language/ru/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/language/ru/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/main/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/main/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/main/layouts/inc/nav_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/main/layouts/inc/nav_menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/main/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/main/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/clubs/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/clubs/list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/clubs/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/clubs/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/events/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/events/list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/events/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/events/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/news/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/news/list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/news/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/news/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/blogList.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/blog_view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/eventList.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/event_view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/site/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/site/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/site/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tours/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tours/list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tours/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tours/view.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +65,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/templates/main/layouts/inc/main_menu.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Controllers/News.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="12" column="129" selection-start-line="12" selection-start-column="129" selection-end-line="12" selection-end-column="129" />
+            <state relative-caret-position="258">
+              <caret line="64" column="44" lean-forward="true" selection-start-line="64" selection-start-column="44" selection-end-line="75" selection-end-column="9" />
+              <folding>
+                <element signature="e#30#44#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Controllers/Events.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="71" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Controllers/Clubs.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="77" column="43" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/main/layouts/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1125">
+              <caret line="59" column="53" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -27,6 +109,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -56,6 +139,8 @@
       <find>About</find>
       <find>About Azerbaijan</find>
       <find>aboutUs</find>
+      <find>add</find>
+      <find>Sub</find>
     </findStrings>
     <replaceStrings>
       <replace>$list</replace>
@@ -67,72 +152,61 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Modules/panadmin/Views/news/_form.php" />
-        <option value="$PROJECT_DIR$/app/Modules/panadmin/Models/NewsModel.php" />
-        <option value="$PROJECT_DIR$/app/Modules/panadmin/Controllers/Tips.php" />
-        <option value="$PROJECT_DIR$/app/Modules/panadmin/Models/TipsModel.php" />
-        <option value="$PROJECT_DIR$/app/Modules/panadmin/Views/menus/_search.php" />
-        <option value="$PROJECT_DIR$/app/Modules/panadmin/Controllers/Blogs.php" />
-        <option value="$PROJECT_DIR$/app/Modules/panadmin/Controllers/Clubs.php" />
-        <option value="$PROJECT_DIR$/app/Modules/panadmin/Controllers/Tours.php" />
-        <option value="$PROJECT_DIR$/app/Modules/panadmin/Controllers/Events.php" />
-        <option value="$PROJECT_DIR$/app/Modules/panadmin/Controllers/News.php" />
-        <option value="$PROJECT_DIR$/app/Modules/panadmin/Views/menus/index.php" />
-        <option value="$PROJECT_DIR$/app/Modules/panadmin/Views/menus/create.php" />
-        <option value="$PROJECT_DIR$/app/Modules/panadmin/Views/menus/update.php" />
-        <option value="$PROJECT_DIR$/app/Modules/panadmin/Views/menus/_form.php" />
-        <option value="$PROJECT_DIR$/app/Modules/panadmin/Models/MenusModel.php" />
-        <option value="$PROJECT_DIR$/app/Modules/panadmin/Controllers/Menus.php" />
-        <option value="$USER_HOME$/Desktop/golf-in-azerbaijan/index.html" />
-        <option value="$PROJECT_DIR$/app/Controllers/MyController.php" />
-        <option value="$PROJECT_DIR$/app/Components/bootstrap.php" />
-        <option value="$PROJECT_DIR$/app/templates/main/css/app.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/Explore New Golf Destination in IGTM 2019.url" />
-        <option value="$PROJECT_DIR$/app/Modules/panadmin/Views/contacts/_form.php" />
-        <option value="$PROJECT_DIR$/app/Modules/panadmin/Controllers/Contacts.php" />
-        <option value="$PROJECT_DIR$/app/templates/main/layouts/main.php" />
-        <option value="$PROJECT_DIR$/app/Models/ClubsModel.php" />
-        <option value="$PROJECT_DIR$/app/views/site/index.php" />
-        <option value="$USER_HOME$/Desktop/golf-in-azerbaijan/golf-clubs.html" />
-        <option value="$PROJECT_DIR$/app/views/clubs/list.php" />
-        <option value="$PROJECT_DIR$/app/Controllers/Clubs.php" />
-        <option value="$PROJECT_DIR$/app/views/clubs/view.php" />
-        <option value="$PROJECT_DIR$/app/templates/main/layouts/inc/nav_menu.php" />
-        <option value="$PROJECT_DIR$/app/Models/ToursModel.php" />
-        <option value="$PROJECT_DIR$/app/templates/main/css/main.css" />
-        <option value="$PROJECT_DIR$/app/views/tours/list.php" />
-        <option value="$PROJECT_DIR$/app/views/tours/view.php" />
-        <option value="$PROJECT_DIR$/app/Controllers/Tours.php" />
-        <option value="$PROJECT_DIR$/app/views/events/list.php" />
-        <option value="$PROJECT_DIR$/app/Controllers/Events.php" />
-        <option value="$PROJECT_DIR$/app/Models/NewsModel.php" />
-        <option value="$PROJECT_DIR$/app/Core/routes.php" />
-        <option value="$PROJECT_DIR$/app/views/news/list.php" />
-        <option value="$PROJECT_DIR$/app/Controllers/News.php" />
-        <option value="$PROJECT_DIR$/app/views/news/view.php" />
-        <option value="$PROJECT_DIR$/app/views/events/view.php" />
         <option value="$PROJECT_DIR$/app/views/site/contact.php" />
+        <option value="$PROJECT_DIR$/app/Core/Config.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/app/Core/routes.php" />
+        <option value="$PROJECT_DIR$/app/templates/main/layouts/inc/nav_menu.php" />
+        <option value="$PROJECT_DIR$/app/views/clubs/list.php" />
+        <option value="$PROJECT_DIR$/app/views/events/list.php" />
+        <option value="$PROJECT_DIR$/app/Modules/panadmin/templates/main/layouts/inc/main_header.php" />
+        <option value="$PROJECT_DIR$/app/Modules/panadmin/Views/admins/index.php" />
+        <option value="$PROJECT_DIR$/app/views/pages/search.php" />
+        <option value="$PROJECT_DIR$/app/views/site/index.php" />
+        <option value="$PROJECT_DIR$/app/views/news/list.php" />
+        <option value="$PROJECT_DIR$/app/views/site/about.php" />
+        <option value="$PROJECT_DIR$/app/Modules/panadmin/Views/menus/view.php" />
+        <option value="$PROJECT_DIR$/app/Modules/panadmin/Views/tours/view.php" />
+        <option value="$PROJECT_DIR$/app/Modules/panadmin/Views/clubs/view.php" />
+        <option value="$PROJECT_DIR$/app/Modules/panadmin/Views/events/view.php" />
+        <option value="$PROJECT_DIR$/app/Modules/panadmin/Views/news/view.php" />
+        <option value="$PROJECT_DIR$/app/views/clubs/view.php" />
+        <option value="$PROJECT_DIR$/app/views/events/view.php" />
+        <option value="$PROJECT_DIR$/app/views/news/view.php" />
+        <option value="$PROJECT_DIR$/app/templates/main/js/toastr.min.js" />
+        <option value="$PROJECT_DIR$/app/templates/main/css/toastr.min.css" />
+        <option value="$PROJECT_DIR$/app/templates/main/layouts/main.php" />
+        <option value="$PROJECT_DIR$/app/Modules/panadmin/templates/main/layouts/inc/main_menu.php" />
+        <option value="$PROJECT_DIR$/app/language/az/app.php" />
         <option value="$PROJECT_DIR$/app/language/en/app.php" />
         <option value="$PROJECT_DIR$/app/language/ru/app.php" />
-        <option value="$PROJECT_DIR$/app/language/az/app.php" />
+        <option value="$PROJECT_DIR$/app/Modules/panadmin/Controllers/Subscribers.php" />
+        <option value="$PROJECT_DIR$/app/Modules/panadmin/Views/subscribers/index.php" />
+        <option value="$PROJECT_DIR$/app/Helpers/Recursive.php" />
+        <option value="$PROJECT_DIR$/app/Controllers/MyController.php" />
         <option value="$PROJECT_DIR$/app/Controllers/Site.php" />
-        <option value="$PROJECT_DIR$/app/views/site/about.php" />
-        <option value="$PROJECT_DIR$/app/Modules/panadmin/templates/main/layouts/inc/main_menu.php" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/golf.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/app/templates/main/js/main.js" />
+        <option value="$PROJECT_DIR$/app/Modules/panadmin/Views/menus/index.php" />
+        <option value="$PROJECT_DIR$/app/Modules/panadmin/Views/menus/_form.php" />
+        <option value="$PROJECT_DIR$/app/Modules/panadmin/Controllers/Menus.php" />
+        <option value="$PROJECT_DIR$/app/Modules/panadmin/Models/MenusModel.php" />
+        <option value="$PROJECT_DIR$/app/views/tours/list.php" />
+        <option value="$PROJECT_DIR$/app/views/tours/view.php" />
+        <option value="$PROJECT_DIR$/app/Modules/panadmin/Controllers/Tours.php" />
+        <option value="$PROJECT_DIR$/app/Modules/panadmin/Controllers/Clubs.php" />
+        <option value="$PROJECT_DIR$/app/Modules/panadmin/Views/clubs/_form.php" />
+        <option value="$PROJECT_DIR$/app/Modules/panadmin/Controllers/News.php" />
+        <option value="$PROJECT_DIR$/app/Modules/panadmin/Views/news/_form.php" />
+        <option value="$PROJECT_DIR$/app/Modules/panadmin/Controllers/Events.php" />
+        <option value="$PROJECT_DIR$/app/Modules/panadmin/Views/tours/_form.php" />
+        <option value="$PROJECT_DIR$/app/Modules/panadmin/Views/events/_form.php" />
+        <option value="$PROJECT_DIR$/app/Controllers/News.php" />
+        <option value="$PROJECT_DIR$/app/Controllers/Events.php" />
+        <option value="$PROJECT_DIR$/app/Controllers/Clubs.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
     <option name="width" value="1038" />
     <option name="height" value="735" />
   </component>
@@ -142,6 +216,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,29 +233,18 @@
               <item name="golf" type="b2602c69:ProjectViewProjectNode" />
               <item name="golf" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="golf" type="b2602c69:ProjectViewProjectNode" />
               <item name="golf" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="panadmin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="golf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="golf" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="panadmin" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="golf" type="b2602c69:ProjectViewProjectNode" />
               <item name="golf" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="panadmin" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -188,34 +252,26 @@
               <item name="golf" type="b2602c69:ProjectViewProjectNode" />
               <item name="golf" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="panadmin" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="golf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="golf" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="panadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-              <item name="inc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../primetime" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -244,19 +300,21 @@
       <updated>1570643047408</updated>
       <workItem from="1570643048588" duration="7419000" />
       <workItem from="1570653488538" duration="8934000" />
+      <workItem from="1570684577399" duration="12481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16353000" />
+    <option name="totallyTimeSpent" value="28834000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18693009" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.13059701" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="File Transfer" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.3289689" />
@@ -269,6 +327,7 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Remote Host" weight="0.4088486" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -300,75 +359,265 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Controllers/Tours.php">
+    <entry file="file://$PROJECT_DIR$/app/views/site/not_found.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="226" selection-start-line="226" selection-end-line="226" />
+        <state relative-caret-position="250">
+          <caret line="10" column="62" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
           <folding>
-            <element signature="e#47#64#0#PHP" expanded="true" />
+            <element signature="e#7#24#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Controllers/Clubs.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/templates/main/layouts/admin_main.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/news/list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="228" column="85" selection-start-line="228" selection-start-column="85" selection-end-line="229" selection-end-column="84" />
+        <state relative-caret-position="472">
+          <caret line="43" column="139" selection-start-line="43" selection-start-column="139" selection-end-line="43" selection-end-column="139" />
           <folding>
-            <element signature="e#47#64#0#PHP" expanded="true" />
+            <element signature="e#7#24#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Controllers/Blogs.php">
+    <entry file="file://$PROJECT_DIR$/app/Helpers/Date.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="230" column="113" selection-start-line="230" selection-start-column="84" selection-end-line="230" selection-end-column="113" />
+        <state relative-caret-position="148">
+          <caret line="134" column="67" selection-start-line="134" selection-start-column="54" selection-end-line="134" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Views/blogs/index.php">
+    <entry file="file://$PROJECT_DIR$/app/views/site/about.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
+        <state relative-caret-position="633">
+          <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Views/menus/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#6#36#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Views/clubs/update.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Views/clubs/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="57" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Views/events/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="70" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Views/news/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="51" column="45" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Views/tours/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="63" column="18" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="63" selection-end-column="18" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/clubs/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="66" column="26" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="66" selection-end-column="26" />
+          <folding>
+            <element signature="e#6#22#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/events/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+          <folding>
+            <element signature="e#6#22#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/news/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+          <folding>
+            <element signature="e#6#22#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="173" column="116" selection-start-line="173" selection-start-column="116" selection-end-line="173" selection-end-column="139" />
+          <folding>
+            <element signature="e#6#22#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/main/js/toastr.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="5215" selection-start-line="5" selection-start-column="5215" selection-end-line="5" selection-end-column="5215" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/main/css/toastr.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="6454" selection-start-line="5" selection-start-column="6454" selection-end-line="5" selection-end-column="6454" />
+          <folding>
+            <element signature="e#2469#3216#2" expanded="true" />
+            <element signature="e#3274#4061#2" expanded="true" />
+            <element signature="e#4121#4608#2" expanded="true" />
+            <element signature="e#4668#5383#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/templates/main/layouts/inc/main_menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/language/az/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="10" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/language/ru/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/language/en/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="10" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Core/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/main/layouts/error.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Controllers/Subscribers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Views/clubs/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
           <caret line="48" column="112" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="48" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Helpers/Recursive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1797">
+          <caret line="135" column="22" lean-forward="true" selection-start-line="135" selection-start-column="22" selection-end-line="135" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controllers/MyController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="41" column="36" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controllers/Site.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+          <folding>
+            <element signature="e#30#44#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Views/subscribers/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="42" column="112" selection-start-line="42" selection-start-column="112" selection-end-line="42" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/main/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Views/menus/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-580">
-          <caret line="60" column="54" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
-          <folding>
-            <element signature="e#6#23#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Views/menus/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Views/menus/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="175">
+          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Views/menus/_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        <state relative-caret-position="183">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Controllers/Menus.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1000">
-          <caret line="43" column="107" selection-start-line="43" selection-start-column="107" selection-end-line="43" selection-end-column="107" />
+        <state relative-caret-position="225">
+          <caret line="234" selection-start-line="234" selection-end-line="234" />
           <folding>
             <element signature="e#47#64#0#PHP" expanded="true" />
           </folding>
@@ -377,242 +626,108 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Models/MenusModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/golf-in-azerbaijan/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="340" selection-end-column="14" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Components/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controllers/MyController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="47" column="37" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Helpers/Recursive.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1280">
-          <caret line="69" column="27" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/main/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Explore New Golf Destination in IGTM 2019.url">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Controllers/Contacts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="205" column="8" selection-start-line="205" selection-start-column="8" selection-end-line="205" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Views/contacts/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="104" column="48" selection-start-line="104" selection-start-column="48" selection-end-line="104" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/PostModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="6" column="6" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/golf-in-azerbaijan/golf-clubs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="27" column="71" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="71" />
-          <folding>
-            <element signature="n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/golf-in-azerbaijan/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="241" column="14" lean-forward="true" selection-start-line="102" selection-start-column="4" selection-end-line="241" selection-end-column="14" />
-          <folding>
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/main/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="58" column="54" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/main/layouts/inc/nav_menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="46" column="121" selection-start-line="46" selection-start-column="121" selection-end-line="46" selection-end-column="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/ToursModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/main/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="660" column="9" selection-start-line="660" selection-start-column="9" selection-end-line="660" selection-end-column="9" />
+        <state relative-caret-position="98">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tours/list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        <state relative-caret-position="522">
+          <caret line="39" column="76" selection-start-line="39" selection-start-column="76" selection-end-line="39" selection-end-column="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/golf-in-azerbaijan/golf-events.html">
+    <entry file="file://$PROJECT_DIR$/app/Core/Config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="166" column="14" lean-forward="true" selection-start-line="102" selection-start-column="4" selection-end-line="166" selection-end-column="14" />
-          <folding>
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="695">
+          <caret line="78" column="36" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tours/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="39" column="71" selection-end-line="109" selection-end-column="10" />
+        <state>
           <folding>
             <element signature="e#6#22#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controllers/Tours.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Controllers/Tours.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="60" selection-end-column="163" />
-          <folding>
-            <element signature="e#30#44#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="175">
+          <caret line="246" column="53" lean-forward="true" selection-start-line="246" selection-start-column="53" selection-end-line="252" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/ClubsModel.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Controllers/Clubs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="6" column="6" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="684">
+          <caret line="258" column="75" selection-start-line="258" selection-start-column="75" selection-end-line="258" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/NewsModel.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Views/clubs/_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="372">
+          <caret line="46" column="175" selection-start-line="46" selection-start-column="175" selection-end-line="46" selection-end-column="175" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Core/routes.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Views/news/_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="575">
+          <caret line="38" column="175" selection-start-line="38" selection-start-column="175" selection-end-line="38" selection-end-column="175" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/clubs/view.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Views/tours/_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="56" column="73" selection-end-line="109" selection-end-column="10" />
-          <folding>
-            <element signature="e#6#22#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="383">
+          <caret line="46" column="125" selection-start-line="46" selection-start-column="108" selection-end-line="46" selection-end-column="125" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/news/list.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Views/events/_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="52" />
-          <folding>
-            <element signature="e#7#24#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="250">
+          <caret line="49" column="2" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/news/view.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Controllers/News.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
-          <folding>
-            <element signature="e#6#22#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="309">
+          <caret line="246" column="53" lean-forward="true" selection-start-line="246" selection-start-column="53" selection-end-line="252" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/events/list.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/Controllers/Events.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="101" selection-start-line="23" selection-start-column="90" selection-end-line="23" selection-end-column="101" />
+        <state relative-caret-position="596">
+          <caret line="264" column="75" selection-start-line="264" selection-start-column="75" selection-end-line="264" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/events/view.php">
+    <entry file="file://$PROJECT_DIR$/app/templates/main/layouts/inc/nav_menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
-          <folding>
-            <element signature="e#6#22#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="1150">
+          <caret line="46" column="74" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/main/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="59" column="53" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controllers/News.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="61" column="163" selection-start-line="61" selection-start-column="163" selection-end-line="61" selection-end-column="163" />
+        <state relative-caret-position="258">
+          <caret line="64" column="44" lean-forward="true" selection-start-line="64" selection-start-column="44" selection-end-line="75" selection-end-column="9" />
           <folding>
             <element signature="e#30#44#0#PHP" expanded="true" />
           </folding>
@@ -621,101 +736,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controllers/Events.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="61" selection-end-column="163" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/golf-in-azerbaijan/contact-us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="135" column="14" lean-forward="true" selection-start-line="102" selection-start-column="4" selection-end-line="135" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/site/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="55" column="105" selection-start-line="55" selection-start-column="105" selection-end-line="55" selection-end-column="105" />
+        <state relative-caret-position="233">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="71" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controllers/Clubs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="39" selection-end-column="32" />
-          <folding>
-            <element signature="e#30#44#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/clubs/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" column="6" lean-forward="true" selection-start-line="3" selection-end-line="27" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/golf-in-azerbaijan/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="118" column="14" lean-forward="true" selection-start-line="104" selection-start-column="4" selection-end-line="118" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/site/about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controllers/Site.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="223" column="123" selection-start-line="223" selection-start-column="123" selection-end-line="223" selection-end-column="123" />
-          <folding>
-            <element signature="e#30#44#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/language/en/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="64" column="3" lean-forward="true" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/language/az/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="64" column="17" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="83" selection-end-column="10" />
-          <folding>
-            <element signature="e#6#22#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/language/ru/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="67" column="386" selection-start-line="67" selection-start-column="386" selection-end-line="67" selection-end-column="386" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/panadmin/templates/main/layouts/inc/main_menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="12" column="129" selection-start-line="12" selection-start-column="129" selection-end-line="12" selection-end-column="129" />
+        <state relative-caret-position="608">
+          <caret line="77" column="43" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
         </state>
       </provider>
     </entry>

@@ -29,7 +29,6 @@ class MenusModel extends Model{
     {
         return [
             'title_'.LANGUAGE_CODE => ['required'],
-            'menu_type' => ['required']
         ];
     }
 
@@ -37,7 +36,6 @@ class MenusModel extends Model{
     {
         return [
             'title_'.LANGUAGE_CODE => "Basliq (".LANGUAGE_CODE.")",
-            'menu_type' => 'Menu tipi',
 
         ];
     }
@@ -60,13 +58,13 @@ class MenusModel extends Model{
     public static function getMenuName($id){
         $defaultLang = LanguagesModel::getDefaultLanguage();
         if(!isset($id) || intval($id)==0){
-            $message = 'Menu seçilməyib';
+            $message = 'Menu not selected';
             return $message;
         }else{
             $row = Database::get()->selectOne('SELECT `title_'.$defaultLang.'` FROM '.self::$tableName.' WHERE id=:id',[':id' => $id]);
             $category_name = $row['title_'.$defaultLang];
             if(!$row){
-                $message = 'Menu tapılmadı';
+                $message = 'No menu found';
                 return $message;
             }else{
                 return $category_name;

@@ -20,7 +20,7 @@ use Helpers\Date;
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="/"><?=$language->get('Home')?></a></li>
-                <li class="breadcrumb-item"><a href="/qolf-klublari"><?=$language->get('Golf_Clubs')?></a></li>
+                <li class="breadcrumb-item"><a href="/golf-clubs"><?=$language->get('Golf_Clubs')?></a></li>
                 <li class="breadcrumb-item active"><?=$data['result']['title_'.$def_lng]?></li>
             </ol>
         </nav>
@@ -41,7 +41,7 @@ use Helpers\Date;
                     </p>-->
                     <hr>
                     <!-- Date/Time -->
-                    <p class="text-muted"><?=Date::tarixLang($data['result']['create_time'])?></p>
+                    <p class="text-muted"><?=Date::tarixLang($data['result']['create_time'],'d F Y , H:i',$def_lng)?></p>
                 </div>
                 <hr>
                 <!-- Preview Image -->
@@ -56,12 +56,14 @@ use Helpers\Date;
                 <div class="card my-4">
                     <h5 class="card-header"><?=$language->get('Search')?></h5>
                     <div class="card-body">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="<?=$language->get('Search_for')?>...">
-                            <span class="input-group-btn">
-                     <button class="btn btn-secondary" type="button"><?=$language->get('Go')?>!</button>
-                     </span>
-                        </div>
+                        <form action="search" method="get">
+                            <div class="input-group">
+                                <input name="q" type="text" class="form-control" placeholder="<?=$language->get('Search_for')?>...">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-secondary" type="submit"><?=$language->get('Go')?>!</button>
+                                </span>
+                            </div>
+                        </form>
                     </div>
                 </div>
                 <!-- Events Widget -->
@@ -73,7 +75,7 @@ use Helpers\Date;
                             foreach ($data['events'] as $event){
                                 echo '
                                 <li>
-                                    <a href="tedbirler/'.$event['slug'].'">
+                                    <a href="/events/'.$event['slug'].'">
                                         <span>'.$event['title_'.$def_lng].'</span>
                                     </a>
                                     <small>'.Date::tarixLang($event['create_time'], 'd M Y H:i').'</small>
@@ -92,7 +94,7 @@ use Helpers\Date;
                             foreach ($data['news'] as $news){
                                 echo '
                                 <li>
-                                    <a href="xeberler/'.$news['slug'].'">
+                                    <a href="/news/'.$news['slug'].'">
                                         <span>'.$news['title_'.$def_lng].'</span>
                                     </a>
                                     <small>'.Date::tarixLang($news['create_time'], 'd M Y H:i').'</small>

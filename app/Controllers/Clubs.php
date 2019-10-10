@@ -60,11 +60,22 @@ class Clubs extends MyController
         $data['events'] = Database::get()->select("SELECT `title_{$defaultLanguage}`,`slug`,`create_time` FROM `events` WHERE `status`=1 ORDER BY `create_time` DESC");
         $data['news'] = Database::get()->select("SELECT `title_{$defaultLanguage}`,`slug`,`create_time` FROM `news` WHERE `status`=1 ORDER BY `create_time` DESC");
 
+        if(empty($get['tags_'.$this->defaultLang])){
+            $keywords = $get['title_'.$this->defaultLang];
+        }else{
+            $keywords = $get['tags_'.$this->defaultLang];
+        }
+
+        if(empty($get['meta_description_'.$this->defaultLang])){
+            $description = $get['title_'.$this->defaultLang];
+        }else{
+            $description = $get['meta_description_'.$this->defaultLang];
+        }
         $data['page'] = 'other';
         $data['result'] = $get;
         $data['title'] = $get['title_'.$this->defaultLang];
-        $data['keywords'] = $get['title_'.$this->defaultLang];
-        $data['description'] = $get['title_'.$this->defaultLang];
+        $data['keywords'] = $keywords;
+        $data['description'] = $description;
         View::render('clubs/view',$data);
     }
 

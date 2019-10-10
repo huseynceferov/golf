@@ -28,7 +28,7 @@ class News extends MyController
     }
 
     public function lists(){
-        $getMenu = Database::get()->selectOne("SELECT * FROM `menus` WHERE `slug`='xeberler'");
+        $getMenu = Database::get()->selectOne("SELECT * FROM `menus` WHERE `slug`='news'");
         $defaultLanguage = $this->defaultLang;
         $countRows = Database::get()->count("SELECT count(id) FROM {$this->blog_table} WHERE `status` = 1");
         $pagination = new Pagination();
@@ -63,10 +63,43 @@ class News extends MyController
         $data['result'] = $get;
         $data['page'] = 'other';
         $data['news_recent'] = $news_recent;
+        if(empty($get['tags_'.$this->defaultLang])){
+            $keywords = $get['title_'.$this->defaultLang];
+        }else{
+            $keywords = $get['tags_'.$this->defaultLang];
+        }
+
+        if(empty($get['meta_description_'.$this->defaultLang])){
+            $description = $get['title_'.$this->defaultLang];
+        }else{
+            $description = $get['meta_description_'.$this->defaultLang];
+        }
         $data['title'] = $get['title_'.$this->defaultLang];
-        $data['keywords'] = $get['title_'.$this->defaultLang];
-        $data['description'] = $get['title_'.$this->defaultLang];
+        $data['keywords'] = $keywords;
+        $data['description'] = $description;
         View::render('news/view',$data);
+    }
+
+
+    public function search(){
+        $defaultLanguage = $this->defaultLang;
+        $q = Security::safe($_GET['q']);
+
+        $countRows = Database::get()->count("SELECT count(id) FROM {$this->blog_table} WHERE `status` = 1 AND MATCH(title_en, title_ru, text_en, text_ru) AGAINST('{$q}' IN BOOLEAN MODE)");
+        $pagination = new Pagination();
+        $limitSql = $pagination->getLimitSql($countRows);
+
+        $data['results'] = Database::get()->select("SELECT * FROM `{$this->blog_table}` WHERE `status`=1 AND MATCH(title_en, title_ru, text_en, text_ru) AGAINST('{$q}' IN BOOLEAN MODE) ORDER BY `create_time` DESC ".$limitSql);
+
+        $data['events'] = Database::get()->select("SELECT `title_{$defaultLanguage}`,`slug`,`create_time` FROM `events` WHERE `status`=1 ORDER BY `create_time` DESC");
+        $data['news'] = Database::get()->select("SELECT `title_{$defaultLanguage}`,`slug`,`create_time` FROM `news` WHERE `status`=1 ORDER BY `create_time` DESC");
+
+        $data['page'] = 'other';
+        $data['searchT'] = $q;
+        $data['title'] = 'Search: '.$q;
+        $data['keywords'] = 'Search: '.$q;
+        $data['description'] = 'Search: '.$q;
+        View::render('pages/search',$data);
     }
 
 }

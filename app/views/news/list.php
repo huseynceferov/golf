@@ -40,8 +40,8 @@ use Helpers\Url;
                         <div class="card">
                             <img class="card-img-top" src="'.Url::uploadPath().$new['middle'].'" alt="'.$new['title_'.$def_lng].'">
                             <div class="card-body">
-                                <h4 class="card-title"> <a href="xeberler/'.$new['slug'].'">'.$new['title_'.$def_lng].'</a> </h4>
-                                <p class="card-text"><small class="text-muted">'.Date::tarixLang($new['create_time']).'</small></p>
+                                <h4 class="card-title"> <a href="/news/'.$new['slug'].'">'.$new['title_'.$def_lng].'</a> </h4>
+                                <p class="card-text"><small class="text-muted">'.Date::tarixLang($new['create_time'],'d F Y , H:i',$def_lng).'</small></p>
                             </div>
                         </div>
                     </div>
